@@ -9,7 +9,7 @@ export default function Home() {
     <>
       <Nav />
       <main className="bg-black h-[90vh] flex flex-col lg:flex-row overflow-hidden">
-        <div className="lg:w-1/2 px-16 text-white flex flex-col gap-8">
+        <div className="lg:w-1/2 px-6 lg:px-16 text-white flex flex-col gap-8">
           <div className="flex bg-lightblack text-sm md:text-xl w-fit py-2 px-8 mt-8 rounded-full gap-2">
             <Image src={swigglyline} alt="Swiggly Line" width="40" />Raised
             620K Pre-Seed Round 🎉

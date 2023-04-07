@@ -10,7 +10,7 @@ export default function Nav({style = "bg-black text-white"}){
   const user = userStore((state)=> (state as UserStoreInterface).user); 
 
   return (
-    <nav className={`h-[10vh] px-16 flex items-center justify-between ${style}`}>
+    <nav className={`h-[10vh] px-6 lg:px-16 flex items-center justify-between ${style}`}>
       <Link href="/"><Image src={logo} alt="FastJobs logo" className="w-32 md:w-full"/></Link>
       <div className="flex items-center justify-center gap-4">
         {user && <Link href="/dashboard" className="text-sm md:text-base">Dashboard</Link>}

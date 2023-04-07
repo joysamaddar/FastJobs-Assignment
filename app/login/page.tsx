@@ -30,7 +30,7 @@ export default function LoginPage() {
           <p>Don&apos;t be nervous.</p>
         </div>
       </div>
-      <div className="flex-1 z-10 bg-[#1c1d21] flex flex-col items-start justify-center px-16">
+      <div className="flex-1 z-10 bg-[#1c1d21] flex flex-col items-start justify-center px-6 lg:px-16">
         <div className="xl:hidden mx-auto w-full md:w-[50%] xl:w-full mb-8">
         <Link href="./"><Image className="z-10" src={logoWhite} alt="FastJobs Logo" width="50" height="50"/></Link>
         </div>

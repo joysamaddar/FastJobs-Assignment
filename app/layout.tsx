@@ -20,7 +20,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={dmsans.className}>
+      <body className={`${dmsans.className} bg-black`}>
         <AuthGuard protectedRoutes={["/dashboard"]}>
           {children}
         </AuthGuard>
